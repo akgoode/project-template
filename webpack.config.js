@@ -24,13 +24,15 @@ module.exports = {
         })
     ],
     module: {
-        loaders: [{
-            test: /\.js$/,
-            exclude: /(node_modules|bower_components)/,
-            loader: 'babel-loader',
-            query: {
-                presets: ['babel-preset-env']
+        loaders: [
+            {
+                test: /\.js$/,
+                exclude: /(bower_components|node_modules)/,
+                loader: 'babel-loader',
+                query: {
+                    presets: ['es2015']
+                }
             }
-        }, ]
-    },
+        ]
+    }
 };
