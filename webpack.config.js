@@ -5,8 +5,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: {
         application: './scripts/index.js',
-        vendor: 'jquery',
-        styles: './stylesheets/index.css'
+        vendor: 'jquery'
     },    
     output: {
         filename: '[name].js',
