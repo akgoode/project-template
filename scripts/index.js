@@ -1,6 +1,6 @@
 
 var $container = $('.container');
 
-let hi = "hi";
+let hi = "Kenzie";
 
 $container.append('<p>' + hi + ' Im javascript</p>');
